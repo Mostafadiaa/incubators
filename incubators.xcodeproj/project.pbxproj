@@ -7,21 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162CB09C20B870A900E18AB1 /* logInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162CB09B20B870A900E18AB1 /* logInVc.swift */; };
+		162CB09E20B89E8800E18AB1 /* IncubatorsUserVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162CB09D20B89E8800E18AB1 /* IncubatorsUserVc.swift */; };
+		165540A520CD4F7A00F4C8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165540A420CD4F7A00F4C8DC /* Assets.xcassets */; };
+		169C8889208E6E3400E0D7B1 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C8888208E6E3400E0D7B1 /* AlertController.swift */; };
+		169C888B208E885D00E0D7B1 /* AddPatientVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C888A208E885D00E0D7B1 /* AddPatientVc.swift */; };
+		169C888D208EB1EF00E0D7B1 /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C888C208EB1EF00E0D7B1 /* signUp.swift */; };
+		169C888F208EB4FD00E0D7B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 169C888E208EB4FD00E0D7B1 /* GoogleService-Info.plist */; };
+		169C8893208ECD7A00E0D7B1 /* dataItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C8892208ECD7A00E0D7B1 /* dataItems.swift */; };
+		169C8895208ECDD000E0D7B1 /* viewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C8894208ECDD000E0D7B1 /* viewData.swift */; };
 		16D21BEA208E4A200013D5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D21BE9208E4A200013D5FC /* AppDelegate.swift */; };
-		16D21BEC208E4A200013D5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D21BEB208E4A200013D5FC /* ViewController.swift */; };
 		16D21BEF208E4A200013D5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D21BED208E4A200013D5FC /* Main.storyboard */; };
-		16D21BF1208E4A210013D5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D21BF0208E4A210013D5FC /* Assets.xcassets */; };
 		16D21BF4208E4A210013D5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D21BF2208E4A210013D5FC /* LaunchScreen.storyboard */; };
+		16D21C00208E4D6B0013D5FC /* IncubatorsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D21BFF208E4D6B0013D5FC /* IncubatorsVc.swift */; };
+		16F8C14F20C4F5130087B0FE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13920C4F5130087B0FE /* IQTextView.swift */; };
+		16F8C15020C4F5130087B0FE /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13B20C4F5130087B0FE /* IQPreviousNextView.swift */; };
+		16F8C15120C4F5130087B0FE /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13C20C4F5130087B0FE /* IQTitleBarButtonItem.swift */; };
+		16F8C15220C4F5130087B0FE /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13D20C4F5130087B0FE /* IQBarButtonItem.swift */; };
+		16F8C15320C4F5130087B0FE /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13E20C4F5130087B0FE /* IQToolbar.swift */; };
+		16F8C15420C4F5130087B0FE /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C13F20C4F5130087B0FE /* IQUIView+IQKeyboardToolbar.swift */; };
+		16F8C15520C4F5130087B0FE /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14020C4F5130087B0FE /* IQInvocation.swift */; };
+		16F8C15620C4F5130087B0FE /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14220C4F5130087B0FE /* IQKeyboardManagerConstantsInternal.swift */; };
+		16F8C15720C4F5130087B0FE /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14320C4F5130087B0FE /* IQKeyboardManagerConstants.swift */; };
+		16F8C15820C4F5130087B0FE /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16F8C14520C4F5130087B0FE /* IQKeyboardManager.bundle */; };
+		16F8C15920C4F5130087B0FE /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14620C4F5130087B0FE /* IQKeyboardReturnKeyHandler.swift */; };
+		16F8C15A20C4F5130087B0FE /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14720C4F5130087B0FE /* IQKeyboardManager.swift */; };
+		16F8C15B20C4F5130087B0FE /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14A20C4F5130087B0FE /* IQUIScrollView+Additions.swift */; };
+		16F8C15C20C4F5130087B0FE /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14B20C4F5130087B0FE /* IQUIViewController+Additions.swift */; };
+		16F8C15D20C4F5130087B0FE /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14C20C4F5130087B0FE /* IQUITextFieldView+Additions.swift */; };
+		16F8C15E20C4F5130087B0FE /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14D20C4F5130087B0FE /* IQUIView+Hierarchy.swift */; };
+		16F8C15F20C4F5130087B0FE /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8C14E20C4F5130087B0FE /* IQNSArray+Sort.swift */; };
+		5715C7D6272FFFC02786C7D7 /* Pods_incubators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C109FE8F87E27A4C5FBA2E7 /* Pods_incubators.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162CB09B20B870A900E18AB1 /* logInVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInVc.swift; sourceTree = "<group>"; };
+		162CB09D20B89E8800E18AB1 /* IncubatorsUserVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncubatorsUserVc.swift; sourceTree = "<group>"; };
+		165540A420CD4F7A00F4C8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169C8888208E6E3400E0D7B1 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		169C888A208E885D00E0D7B1 /* AddPatientVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientVc.swift; sourceTree = "<group>"; };
+		169C888C208EB1EF00E0D7B1 /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
+		169C888E208EB4FD00E0D7B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		169C8892208ECD7A00E0D7B1 /* dataItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataItems.swift; sourceTree = "<group>"; };
+		169C8894208ECDD000E0D7B1 /* viewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewData.swift; sourceTree = "<group>"; };
 		16D21BE6208E4A200013D5FC /* incubators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = incubators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D21BE9208E4A200013D5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16D21BEB208E4A200013D5FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16D21BEE208E4A200013D5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16D21BF0208E4A210013D5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D21BF3208E4A210013D5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16D21BF5208E4A210013D5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D21BFF208E4D6B0013D5FC /* IncubatorsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncubatorsVc.swift; sourceTree = "<group>"; };
+		16F8C13920C4F5130087B0FE /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		16F8C13B20C4F5130087B0FE /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		16F8C13C20C4F5130087B0FE /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		16F8C13D20C4F5130087B0FE /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		16F8C13E20C4F5130087B0FE /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		16F8C13F20C4F5130087B0FE /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		16F8C14020C4F5130087B0FE /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		16F8C14220C4F5130087B0FE /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		16F8C14320C4F5130087B0FE /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		16F8C14520C4F5130087B0FE /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		16F8C14620C4F5130087B0FE /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		16F8C14720C4F5130087B0FE /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		16F8C14820C4F5130087B0FE /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		16F8C14A20C4F5130087B0FE /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		16F8C14B20C4F5130087B0FE /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		16F8C14C20C4F5130087B0FE /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		16F8C14D20C4F5130087B0FE /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		16F8C14E20C4F5130087B0FE /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		551815D01480EF171F55D7E1 /* Pods-incubators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-incubators.debug.xcconfig"; path = "Pods/Target Support Files/Pods-incubators/Pods-incubators.debug.xcconfig"; sourceTree = "<group>"; };
+		799DAF2056155916A7AD0C4F /* Pods-incubators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-incubators.release.xcconfig"; path = "Pods/Target Support Files/Pods-incubators/Pods-incubators.release.xcconfig"; sourceTree = "<group>"; };
+		9C109FE8F87E27A4C5FBA2E7 /* Pods_incubators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_incubators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5715C7D6272FFFC02786C7D7 /* Pods_incubators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +96,8 @@
 			children = (
 				16D21BE8208E4A200013D5FC /* incubators */,
 				16D21BE7208E4A200013D5FC /* Products */,
+				C035159AC9EB804C352644B8 /* Pods */,
+				96F8C1184E2346CBEED01843 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +112,137 @@
 		16D21BE8208E4A200013D5FC /* incubators */ = {
 			isa = PBXGroup;
 			children = (
-				16D21BE9208E4A200013D5FC /* AppDelegate.swift */,
-				16D21BEB208E4A200013D5FC /* ViewController.swift */,
-				16D21BED208E4A200013D5FC /* Main.storyboard */,
-				16D21BF0208E4A210013D5FC /* Assets.xcassets */,
-				16D21BF2208E4A210013D5FC /* LaunchScreen.storyboard */,
+				16DBC04721E13EC0005E6560 /* Global */,
+				16DBC04621E13E76005E6560 /* Model */,
+				16DBC04521E13E41005E6560 /* View */,
+				16DBC04421E13E0A005E6560 /* Controller */,
+				16F8C13720C4F5130087B0FE /* IQKeyboardManagerSwift */,
 				16D21BF5208E4A210013D5FC /* Info.plist */,
+				169C888E208EB4FD00E0D7B1 /* GoogleService-Info.plist */,
+				165540A420CD4F7A00F4C8DC /* Assets.xcassets */,
 			);
 			path = incubators;
+			sourceTree = "<group>";
+		};
+		16DBC04421E13E0A005E6560 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162CB09D20B89E8800E18AB1 /* IncubatorsUserVc.swift */,
+				16D21BFF208E4D6B0013D5FC /* IncubatorsVc.swift */,
+				169C888A208E885D00E0D7B1 /* AddPatientVc.swift */,
+				162CB09B20B870A900E18AB1 /* logInVc.swift */,
+				169C888C208EB1EF00E0D7B1 /* signUp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16DBC04521E13E41005E6560 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16D21BF2208E4A210013D5FC /* LaunchScreen.storyboard */,
+				16D21BED208E4A200013D5FC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16DBC04621E13E76005E6560 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				169C8888208E6E3400E0D7B1 /* AlertController.swift */,
+				169C8894208ECDD000E0D7B1 /* viewData.swift */,
+				169C8892208ECD7A00E0D7B1 /* dataItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16DBC04721E13EC0005E6560 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				16D21BE9208E4A200013D5FC /* AppDelegate.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		16F8C13720C4F5130087B0FE /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C13820C4F5130087B0FE /* IQTextView */,
+				16F8C13A20C4F5130087B0FE /* IQToolbar */,
+				16F8C14120C4F5130087B0FE /* Constants */,
+				16F8C14420C4F5130087B0FE /* Resources */,
+				16F8C14620C4F5130087B0FE /* IQKeyboardReturnKeyHandler.swift */,
+				16F8C14720C4F5130087B0FE /* IQKeyboardManager.swift */,
+				16F8C14820C4F5130087B0FE /* IQKeyboardManagerSwift.h */,
+				16F8C14920C4F5130087B0FE /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		16F8C13820C4F5130087B0FE /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C13920C4F5130087B0FE /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		16F8C13A20C4F5130087B0FE /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C13B20C4F5130087B0FE /* IQPreviousNextView.swift */,
+				16F8C13C20C4F5130087B0FE /* IQTitleBarButtonItem.swift */,
+				16F8C13D20C4F5130087B0FE /* IQBarButtonItem.swift */,
+				16F8C13E20C4F5130087B0FE /* IQToolbar.swift */,
+				16F8C13F20C4F5130087B0FE /* IQUIView+IQKeyboardToolbar.swift */,
+				16F8C14020C4F5130087B0FE /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		16F8C14120C4F5130087B0FE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C14220C4F5130087B0FE /* IQKeyboardManagerConstantsInternal.swift */,
+				16F8C14320C4F5130087B0FE /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		16F8C14420C4F5130087B0FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C14520C4F5130087B0FE /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16F8C14920C4F5130087B0FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16F8C14A20C4F5130087B0FE /* IQUIScrollView+Additions.swift */,
+				16F8C14B20C4F5130087B0FE /* IQUIViewController+Additions.swift */,
+				16F8C14C20C4F5130087B0FE /* IQUITextFieldView+Additions.swift */,
+				16F8C14D20C4F5130087B0FE /* IQUIView+Hierarchy.swift */,
+				16F8C14E20C4F5130087B0FE /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		96F8C1184E2346CBEED01843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C109FE8F87E27A4C5FBA2E7 /* Pods_incubators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C035159AC9EB804C352644B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551815D01480EF171F55D7E1 /* Pods-incubators.debug.xcconfig */,
+				799DAF2056155916A7AD0C4F /* Pods-incubators.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D21BF8208E4A210013D5FC /* Build configuration list for PBXNativeTarget "incubators" */;
 			buildPhases = (
+				B4750A5D5C3ACE50B6A3FC7C /* [CP] Check Pods Manifest.lock */,
 				16D21BE2208E4A200013D5FC /* Sources */,
 				16D21BE3208E4A200013D5FC /* Frameworks */,
 				16D21BE4208E4A200013D5FC /* Resources */,
+				CCD1D3C7801BA2EADAAF8B79 /* [CP] Embed Pods Frameworks */,
+				8C5334D5E0A6BB945E6188B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +306,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F8C15820C4F5130087B0FE /* IQKeyboardManager.bundle in Resources */,
 				16D21BF4208E4A210013D5FC /* LaunchScreen.storyboard in Resources */,
-				16D21BF1208E4A210013D5FC /* Assets.xcassets in Resources */,
+				169C888F208EB4FD00E0D7B1 /* GoogleService-Info.plist in Resources */,
 				16D21BEF208E4A200013D5FC /* Main.storyboard in Resources */,
+				165540A520CD4F7A00F4C8DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C5334D5E0A6BB945E6188B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-incubators/Pods-incubators-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4750A5D5C3ACE50B6A3FC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-incubators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD1D3C7801BA2EADAAF8B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-incubators/Pods-incubators-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-incubators/Pods-incubators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16D21BE2208E4A200013D5FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D21BEC208E4A200013D5FC /* ViewController.swift in Sources */,
+				169C8889208E6E3400E0D7B1 /* AlertController.swift in Sources */,
+				16F8C15220C4F5130087B0FE /* IQBarButtonItem.swift in Sources */,
+				16F8C15E20C4F5130087B0FE /* IQUIView+Hierarchy.swift in Sources */,
+				16F8C15F20C4F5130087B0FE /* IQNSArray+Sort.swift in Sources */,
+				16F8C15120C4F5130087B0FE /* IQTitleBarButtonItem.swift in Sources */,
+				16D21C00208E4D6B0013D5FC /* IncubatorsVc.swift in Sources */,
+				169C8895208ECDD000E0D7B1 /* viewData.swift in Sources */,
+				16F8C15A20C4F5130087B0FE /* IQKeyboardManager.swift in Sources */,
+				16F8C15920C4F5130087B0FE /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				16F8C15520C4F5130087B0FE /* IQInvocation.swift in Sources */,
+				162CB09C20B870A900E18AB1 /* logInVc.swift in Sources */,
 				16D21BEA208E4A200013D5FC /* AppDelegate.swift in Sources */,
+				16F8C15B20C4F5130087B0FE /* IQUIScrollView+Additions.swift in Sources */,
+				16F8C15320C4F5130087B0FE /* IQToolbar.swift in Sources */,
+				162CB09E20B89E8800E18AB1 /* IncubatorsUserVc.swift in Sources */,
+				16F8C15D20C4F5130087B0FE /* IQUITextFieldView+Additions.swift in Sources */,
+				16F8C15620C4F5130087B0FE /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				169C888B208E885D00E0D7B1 /* AddPatientVc.swift in Sources */,
+				16F8C15720C4F5130087B0FE /* IQKeyboardManagerConstants.swift in Sources */,
+				16F8C15C20C4F5130087B0FE /* IQUIViewController+Additions.swift in Sources */,
+				16F8C15020C4F5130087B0FE /* IQPreviousNextView.swift in Sources */,
+				16F8C14F20C4F5130087B0FE /* IQTextView.swift in Sources */,
+				169C8893208ECD7A00E0D7B1 /* dataItems.swift in Sources */,
+				16F8C15420C4F5130087B0FE /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				169C888D208EB1EF00E0D7B1 /* signUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +549,7 @@
 		};
 		16D21BF9208E4A210013D5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551815D01480EF171F55D7E1 /* Pods-incubators.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,12 +562,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Diaa.sad8.incubators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		16D21BFA208E4A210013D5FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799DAF2056155916A7AD0C4F /* Pods-incubators.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Diaa.sad8.incubators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
